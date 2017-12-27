@@ -1,13 +1,9 @@
-'''Assignment 5 (Version 1.0)
-
-Please add your code where indicated. You may conduct a superficial test of
-your code by executing this file in a python interpreter.
-
+'''
 The documentation strings ("docstrings") for each function tells you what the
 function should accomplish. If docstrings are unfamiliar to you, consult the
 Python Tutorial section on "Documentation Strings".
 
-This assignment requires the following packages:
+This program requires the following packages:
 
 - numpy
 - pandas
@@ -25,8 +21,8 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.metrics.pairwise import euclidean_distances
 
 
-TWITTER_DATA_FILENAME = os.path.join(os.path.dirname(__file__), 'data', 'united-states-congress-house-twitter-2016-grouped-tweets-train.csv')
-WORD_VECTORS_FILENAME = os.path.join(os.path.dirname(__file__), 'data', 'united-states-congress-house-twitter-2016-word-vectors-fasttext.csv.xz')
+TWITTER_DATA_FILENAME = os.path.join(os.path.dirname(__file__), 'united-states-congress-house-twitter-2016-grouped-tweets-train.csv')
+WORD_VECTORS_FILENAME = os.path.join(os.path.dirname(__file__), 'united-states-congress-house-twitter-2016-word-vectors-fasttext.csv.xz')
 
 
 # `load_word_vectors` is provided for you. Do not edit this function.
